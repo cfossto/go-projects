@@ -18,6 +18,7 @@ The goal is to learn a lot of Go and become profficient in it.
 
 
 # /Web
+Here you will find example Web-applications with common libraries and common techniques worth looking at.
 
 ## /Simple-gin
 This is an example CRUD application with GIN as a router. It is handling CRUD-endpoints and JSON from request body.

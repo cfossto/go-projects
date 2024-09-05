@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/go-playground/validator/v10/translations/id"
 )
 
 func main(){
@@ -26,6 +27,17 @@ func main(){
 		},)
 	})
 
+	type PersonOfInterest struct {
+		id		int
+		name	string
+	}
+
+	
+
+
+	r.GET("/peeple", func(ctx *gin.Context) {
+		ctx.BindJSON()
+	})
 	
 	r.Run()
 }

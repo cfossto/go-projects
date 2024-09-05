@@ -27,17 +27,5 @@ func main(){
 		},)
 	})
 
-	type PersonOfInterest struct {
-		id		int
-		name	string
-	}
-
-	
-
-
-	r.GET("/peeple", func(ctx *gin.Context) {
-		ctx.BindJSON()
-	})
-	
 	r.Run()
 }

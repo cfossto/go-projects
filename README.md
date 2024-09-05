@@ -17,7 +17,7 @@ The goal is to learn a lot of Go and become profficient in it.
 - ML/AI
 - Random usage of external packages
 
-# Basics
+# /Basics
 Here you will find just pure basics of the syntax and common techniques of the language.
 
 # /Web

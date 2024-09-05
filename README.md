@@ -9,6 +9,7 @@ The goal is to learn a lot of Go and become profficient in it.
 
 # Sections
 
+- Basics
 - Web
 - CLI
 - Networking
@@ -16,6 +17,8 @@ The goal is to learn a lot of Go and become profficient in it.
 - ML/AI
 - Random usage of external packages
 
+# /Basics
+Here you will find just pure basics of the syntax and common techniques of the language.
 
 # /Web
 Here you will find example Web-applications with common libraries and common techniques worth looking at.
